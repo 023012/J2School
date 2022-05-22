@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            background-color: darkblue;
+            font-family: Arial;
+        }
+        table{
+            height: 100px;
+            width: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #btn01, #btn02{
+            background-color: mediumblue;
+            border: 1px solid mediumblue;
+            color: white;
+            padding: 5px;
+            /*margin: 10px 0px 5px 0px;*/
+        }
+
+        .comments {
+            margin-top: 20px;
+            width: 50%;
+            background-color: mediumblue;
+            border: 1px solid mediumblue;
+        }
+        form{
+            margin:5px 10px;
+        }
+        input{
+            margin-bottom: 5px;
+            height: 23px;
+        }
+        textarea{
+            line-height: 30px;
+            width: 365px;
+        }
+        .send{
+            float: right;
+        }
+        #btn03,#btn04 {
+            background-color: #00a8ff;
+            border: 1px solid #00a8ff;
+            padding: 2px 3px;
+            margin-bottom: 8px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <table>
+        <tr>
+            <td>
+                <button type="button" id="btn01" onclick="alert('btn01')">Load next 10 comments</button>
+                <button type="button" id="btn02" onclick="alert('btn02')">Load all comments</button>
+            </td>
+        </tr>
+        <tr class="comments">
+            <td>
+                <form action="">
+                    <input type="text" name="Your_name" id="yourName"
+                           placeholder="Your name (optional)" size="50">
+                    <br>
+                    <textarea name="message" id=""
+                              placeholder="Write your message"></textarea>
+                    <br>
+                    <div class="send">
+                        <button type="reset" id="btn03" onclick="alert('Cancel')"> Cancel</button>
+                        <button type="button" id="btn04" onclick="alert('Hello <3')">Send</button>
+                    </div>
+                </form>
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
