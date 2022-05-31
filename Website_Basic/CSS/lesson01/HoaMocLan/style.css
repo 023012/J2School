@@ -1,0 +1,136 @@
+* {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*container*/
+#container {
+    position: relative;
+    margin: 0px 50px;
+    height: auto;
+    width: auto;
+}
+
+/*nav*/
+#nav {
+    position: relative;
+    background: #e056fd;
+    line-height: 15px;
+    border-top: 5px solid gray;
+
+}
+
+#nav table tr th {
+    padding: 2px;
+    border-left: 2px solid black;
+}
+
+#nav table tr th a {
+    text-decoration: none;
+    margin: 0px 5px;
+    color: black;
+}
+
+/*article*/
+#article {
+    position: relative;
+    background: white;
+    margin-top: 10px;
+    width: auto;
+    height: auto;
+}
+
+/*left*/
+
+/*above*/
+#article .left {
+    width: 40%;
+    height: auto;
+    background: #ffffff;
+    position: relative;
+    float: left;
+}
+
+#article .left .above {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    padding-left: 120px;
+    padding-bottom: 60px;
+}
+
+#article .left .above .link {
+
+    padding-bottom: 30px;
+    background: #be2edd;
+}
+
+#article .left .above .link select{
+    border-radius: 3px;
+    margin-left: 25%;
+    width: 50%;
+}
+
+#article .left .document{
+    background: white;
+    height: 100%;
+    overflow: scroll;
+}
+
+/*below*/
+
+#article .left .below {
+    position: relative;
+    margin: 10px 10px 10px 0px;
+    width: 100%;
+    height: 240px;
+    background: #be2edd;
+}
+
+#article .left .below  {
+    padding: 10px;
+}
+
+#article .left .below .picture {
+    float: right;
+}
+
+#article .left .below img {
+    width: 143px;
+    height: 218px;
+}
+
+
+/*right*/
+#article .right {
+    width: 60%;
+    height: auto;
+    position: relative;
+    background: #ffffff;
+    float: right;
+    padding: 0 0px 10px 10px;
+}
+
+#article .right .above {
+    background: #0abde3;
+    width: 80%;
+    height: 100px;
+}
+
+#article .right .img01 {
+
+}
+
+#article .right.img04{
+    float: left;
+}
+
+#article .right .img06 {
+    height: 750px;
+    padding-left: 10px;
+    margin-left: 20px;
+    background: #fd9644;
+    float: right;
+}
