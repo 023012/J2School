@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-/*container*/
+/*-------------container--------------*/
 #container {
     position: relative;
     margin: 0px 50px;
@@ -13,7 +13,7 @@
     width: auto;
 }
 
-/*nav*/
+/*------------------Container_nav-----------------------*/
 #nav {
     position: relative;
     background: #e056fd;
@@ -33,18 +33,19 @@
     color: black;
 }
 
-/*article*/
+/*----------------Container_article----------------------*/
 #article {
+    width: 90%;
     position: relative;
+    float: left;
     background: white;
-    margin-top: 10px;
-    width: auto;
+    margin-top: 30px;
     height: auto;
 }
 
-/*left*/
+/*---------------article_left-----------------*/
 
-/*above*/
+/*----------------left_above---------------------*/
 #article .left {
     width: 40%;
     height: auto;
@@ -79,7 +80,7 @@
     overflow: scroll;
 }
 
-/*below*/
+/*---------------left_below---------------*/
 
 #article .left .below {
     position: relative;
@@ -103,7 +104,7 @@
 }
 
 
-/*right*/
+/*--------------article_right-------------------*/
 #article .right {
     width: 60%;
     height: auto;
@@ -113,24 +114,59 @@
     padding: 0 0px 10px 10px;
 }
 
-#article .right .above {
-    background: #0abde3;
-    width: 80%;
-    height: 100px;
+#article .right .above01 {
+    margin-left: 250px;
+    margin-top: -30px;
 }
 
-#article .right .img01 {
-
+#article .right .above02{
+    margin-left: 296px;
+    margin-top:-90px;
 }
 
-#article .right.img04{
-    float: left;
+#article .right .main{
+    margin-top: 100px;
 }
 
-#article .right .img06 {
-    height: 750px;
-    padding-left: 10px;
-    margin-left: 20px;
-    background: #fd9644;
+#article .right .main .img01{
+    padding: 50px;
+}
+
+#article .right .main .img02{
+    margin-bottom: -75px;
+    margin-left: 100px;
+    height: 600px;
+    width: 400px;
+}
+
+#article .right .main .img03{
+    margin-left: 550px;
+    margin-top: -50px;
+    height: 250px;
+    width: 250px;
+}
+
+/* ----------------Container_aside------------------- */
+#aside {
     float: right;
+    width: 10%;
+}
+
+#aside .img_aside {
+    height: 780px;
+    width: 100px;
+    background: #20bf6b;
+    float: right;
+}
+
+#aside .img_aside .img01{
+    float: right;
+    margin-right: 100px;
+}
+
+#aside .img_aside .img02{
+    margin-top: -30px;
+    height: 785px;
+    float: right;
+    border-left: 10px solid #fd9644;
 }
