@@ -1,0 +1,108 @@
+* {
+    font-family: Arial;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: auto;
+    height: auto;
+}
+
+#aside_Left{
+    width: 20%;
+    height: auto;
+    float: left;
+    background: black;
+    position: relative;
+}
+
+#aside_Left .sanho img{
+  z-index: 1;
+  width: 110%;
+}
+
+/* ------------------   Section    -------------------- */
+#section {
+    width: 60%;
+    height: 100%;
+    background-image: url('../images/sua1.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    float: left;
+    position: relative;
+}
+
+#section .soc{
+    float: left;
+    height: 100%;
+}
+#section .soc img {
+    width: 158.6%;
+}
+
+#section .header {
+    float: left;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+#section .header h1 {
+    color: #fa8231;
+    font-size: 70px;
+}
+
+#section .header p {
+    padding: 50px;
+    font-size: 20px;
+}
+
+#section .table {
+    margin: 0px 300px;
+    background: #0fbcf9;
+}
+
+#section table tr td {
+    padding: 10px 0px;
+}
+
+#section table tr td input,label{
+    padding: 5px 10px;
+    margin: 3px;
+}
+
+#section table tr td select {
+    text-align: center;
+    width: 200px;
+    height: 30px;
+}
+
+#section table tr td .btn01{
+    width: 90px;
+    height: 30px;
+    border-radius: 3px ;
+    margin: 2px;
+}
+
+#section table tr td .btn02{
+    width: 100px;
+    height: 30px;
+    border-radius: 3px ;
+    margin: 2px;
+}
+
+
+/* --------------------    aside    --------------------- */
+#aside_Right {
+    width: 20%;
+    height: auto;
+    float: right;
+}
+
+#aside_Right img {
+    margin: 50px;
+    width: 182.4px;
+    height: 146.4px;
+}
